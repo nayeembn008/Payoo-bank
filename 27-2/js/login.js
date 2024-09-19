@@ -8,7 +8,6 @@ document
   .addEventListener("click", function (event) {
     // Step 2: prevent default behaviour
     event.preventDefault();
-    console.log("login button clicked");
 
     // Step 3: Get the phone number
     const phoneNumber = document.getElementById("phone-number").value;
