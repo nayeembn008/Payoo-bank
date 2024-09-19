@@ -22,7 +22,7 @@
               <div>
                 <div class="stats shadow">
                   <div class="stat">
-                    <div class="stat-value">89400</div>
+                    <div class="stat-value" id="balance">89400</div>
                     <div class="stat-desc">Available balance</div>
                   </div>
                 </div>
@@ -45,6 +45,7 @@
                       type="text"
                       placeholder="Amount to be added"
                       class="input input-bordered"
+                      id="input-add-money"
                       required
                     />
                   </div>
@@ -56,12 +57,15 @@
                       type="password"
                       placeholder="Enter 4 digit pin number"
                       class="input input-bordered"
+                      id="input-pin-number"
                       autocomplete="off"
                       required
                     />
                   </div>
                   <div class="form-control mt-6">
-                    <button class="btn btn-primary">Add money</button>
+                    <button class="btn btn-primary" id="btn-add-money">
+                      Add money
+                    </button>
                   </div>
                 </form>
               </div>
